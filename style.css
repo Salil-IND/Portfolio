@@ -8,7 +8,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: url('Images/Bg-img.png') no-repeat center/cover;
+  background: url('Bg-img.png') no-repeat center/cover;
   opacity: 0.6;
   z-index: -1;
 }
