@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salil's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./Images/Favicon.png">
+</head>
+
+<body>
+  <nav class="nav-cont">
+    <div class="logo-holder">
+      <img class="logo" src="Images/Logo.png" alt="Logo" style="display: none;">
+    </div>
+    <ul class="nav-bar">
+      <li class="nav-btn"><a href="#home">Home</a></li>
+      <li class="nav-btn"><a href="#projects">Projects</a></li>
+      <li class="nav-btn"><a href="#achiv-section">Achievements</a></li>
+      <li class="nav-btn"><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <div id="home" class="hero-section">
+    <div class="img-sect">
+      <img id="pic" src="Images/Photo.jpg" alt="Salil Rath">
+    </div>
+    <div class="about">
+      <h2 class="tagline">
+        <span style="color:green;">print(<span style="color:rgb(197,133,49);">"Hello World!"</span>)</span>
+      </h2>
+      <h3 class="tagline">
+        console.<span style="color:rgb(0,128,255);">log</span>(<span style="color:rgb(163,11,11);">"I am Salil Rath"</span>)
+      </h3>
+
+      <div id="about">
+        <span style="color:rgb(0,136,255);">&lt;p&gt;</span>
+        <blockquote>
+          Passionate about programming and problem-solving. I love turning ideas into working products
+          and exploring new technologies. This portfolio is a glimpse into what I’ve learned, built, and achieved so far.
+        </blockquote>
+        <span style="color:rgb(0,136,255);">&lt;/p&gt;</span>
+      </div>
+      <a href="#achiv-section" id="btn">Look at my Work</a>
+    </div>
+  </div>
+
+  <!-- Achievements Section -->
+  <section id="achiv-section" class="achiv-section">
+    <h2>Things I'm Proud Of</h2>
+    <div class="achivs-grid">
+      <div class="achiv">
+        <div class="achiv-img-holder">
+          <img src="Images/award1.png" alt="Achievement 1">
+        </div>
+        <h3 class="achiv-title">24-Hour Hackathon</h3>
+        <p class="achiv-desc">I participated in a 24-Hour Hackathon organised by the Open Source Club of my College and built a Package tracker Application</p>
+      </div>
+
+      <div class="achiv">
+        <div class="achiv-img-holder">
+          <img src="Images/award2.png" alt="Achievement 2">
+        </div>
+        <h3 class="achiv-title">Competetive Programming Club</h3>
+        <p class="achiv-desc">I became the member of the "hard-to-get-into" Competetive Programming Club</p>
+      </div>
+
+      <!-- <div class="achiv">
+        <div class="achiv-img-holder">
+          <img src="Images/award3.png" alt="Achievement 3">
+        </div>
+        <h3 class="achiv-title"></h3>
+        <p class="achiv-desc">Published a research paper on machine learning in ABC Journal.</p>
+      </div>
+    </div> -->
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="Images/project1.png" alt="Project 1">
+        <h3>Portfolio Website</h3>
+        <p>A responsive, modern personal portfolio built purely with HTML and CSS. No JS, No BS.</p>
+        <a href="https://github.com/Salil-IND/Portfolio" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="Images/project2.png" alt="Project 2">
+        <h3>Gesture-controlled Chrome Dino Game in Python</h3>
+        <p>Developed a simple Gesture Controlled Dino Game by implementing Hand Detection using the OpenCV library.</p>
+        <a href="https://github.com/Salil-IND/Reinforce_Club-SST/tree/main/Build_Day(Gesture_Control_Gaming)/chrome-dino-game" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="Images/project3.png" alt="Project 3">
+        <h3>Deepfake Detection Model</h3>
+        <p>As part of a Science Exhibition, me and my team made up a deepfake detection model that classifies AI-generated fake images.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <p>If you'd like to collaborate or just say hello, feel free to reach out!</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="#"><img src="Images/github.png" alt="GitHub"></a>
+      <a href="#"><img src="Images/linkedin.png" alt="LinkedIn"></a>
+      <a href="#"><img src="Images/mail.png" alt="Email"></a>
+    </div>
+  </section>
+</body>
+
+
+</html>
